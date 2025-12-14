@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>RTC Ticket Booking</title>
+</head>
+<body>
+
+<h2>RTC & RTC Express Ticket Booking</h2>
+
+<p>
+    Fill the below form to book tickets for
+    <b>RTC</b> and <b>RTC Express</b> buses.
+</p>
+
+<form>
+    <table cellpadding="8">
+
+        <tr>
+            <td><b>Passenger Name</b></td>
+            <td><input type="text" required></td>
+        </tr>
+
+        <tr>
+            <td><b>Mobile Number</b></td>
+            <td><input type="text" required></td>
+        </tr>
+
+        <tr>
+            <td><b>Gender</b></td>
+            <td>
+                <input type="radio" name="g"> Male
+                <input type="radio" name="g"> Female
+            </td>
+        </tr>
+
+        <tr>
+            <td><b>Bus Type</b></td>
+            <td>
+                <input type="radio" name="bus"> RTC Ordinary
+                <input type="radio" name="bus"> RTC Express
+            </td>
+        </tr>
+
+        <tr>
+            <td><b>Source</b></td>
+            <td><input type="text" placeholder="Enter source city"></td>
+        </tr>
+
+        <tr>
+            <td><b>Destination</b></td>
+            <td><input type="text" placeholder="Enter destination city"></td>
+        </tr>
+
+        <tr>
+            <td><b>Date of Journey</b></td>
+            <td><input type="date"></td>
+        </tr>
+
+        <tr>
+            <td><b>Number of Seats</b></td>
+            <td>
+                <select>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                </select>
+            </td>
+        </tr>
+
+        <tr>
+            <td colspan="2" align="center">
+                <input type="submit" value="Book Ticket">
+                <input type="reset">
+            </td>
+        </tr>
+
+    </table>
+</form>
+
+<p>
+    <mark>Note:</mark> Please carry a valid ID proof while travelling.
+</p>
+
+</body>
+</html>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Create Account</title>
+</head>
+<body>
+
+<center>
+    <h2>Create New Account</h2>
+
+    <form action="login.html" method="get">
+        <table cellpadding="10" border="0">
+            <tr>
+                <td><b>Full Name</b></td>
+                <td><input type="text" name="name" required></td>
+            </tr>
+
+            <tr>
+                <td><b>Email ID</b></td>
+                <td><input type="email" name="email" required></td>
+            </tr>
+
+            <tr>
+                <td><b>Username</b></td>
+                <td><input type="text" name="username" required></td>
+            </tr>
+
+            <tr>
+                <td><b>Password</b></td>
+                <td><input type="password" name="password" required></td>
+            </tr>
+
+            <tr>
+                <td><b>Gender</b></td>
+                <td>
+                    <input type="radio" name="gender"> Male
+                    <input type="radio" name="gender"> Female
+                </td>
+            </tr>
+
+            <tr>
+                <td><b>City</b></td>
+                <td>
+                    <select name="city">
+                        <option>Hyderabad</option>
+                        <option>Bangalore</option>
+                        <option>Chennai</option>
+                        <option>Pune</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td><b>Services Required</b></td>
+                <td>
+                    <input type="checkbox"> Ticket Booking
+                    <input type="checkbox"> Live Tracking
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="2" align="center">
+                    <input type="submit" value="Create Account">
+                    <input type="reset">
+                </td>
+            </tr>
+        </table>
+    </form>
+
+    <p>
+        Already have an account?
+        <a href="login.html">Login</a>
+    </p>
+</center>
+
+</body>
+</html>
