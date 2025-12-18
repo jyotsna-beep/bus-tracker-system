@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background-color: #fffdf8;
+}
+
+/* Header bar */
+.header-bar {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    align-items: center;
+    padding: 14px 25px;
+    background-color: #ffffff;
+}
+
+/* Spacer (left) */
+.spacer {
+    /* empty on purpose to balance layout */
+}
+
+/* Center title */
+.title-section {
+    text-align: center;
+}
+
+.title-section h1 {
+    margin: 0;
+    font-size: 22px;
+    color: #ff8c00;
+}
+
+.title-section p {
+    margin: 4px 0 0;
+    font-size: 14px;
+    color: #666;
+}
+
+/* Logout */
+.logout-section {
+    text-align: right;
+}
+
+.logout-btn {
+    text-decoration: none;
+    font-size: 14px;
+    color: #ff8c00;
+    font-weight: 600;
+    padding: 6px 10px;
+    border: 1px solid #ffd180;
+    border-radius: 5px;
+    background-color: #fffaf0;
+}
+
+.logout-btn:hover {
+    background-color: #ffe0b2;
+}
+
+/* Separator line */
+.header-line {
+    border: none;
+    border-top: 1px solid #ffd699;
+    margin: 0;
+}

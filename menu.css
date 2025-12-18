@@ -1,0 +1,65 @@
+/* ===== BODY ===== */
+body {
+    margin: 0;
+    padding: 15px;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background-color: #fff8ec;   /* very light warm background */
+}
+
+/* ===== CARD ===== */
+.menu-card {
+    width: 220px;
+    background-color: #ffffff;
+    border: 1.5px solid #ffcc80;
+    border-radius: 10px;
+    padding: 18px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+/* ===== HEADING ===== */
+.menu-card h3 {
+    text-align: center;
+    margin-bottom: 18px;
+    color: #ff8c00;
+    font-weight: 600;
+    border-bottom: 1px solid #ffd699;
+    padding-bottom: 6px;
+}
+
+/* ===== LIST ===== */
+.menu-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* ===== ITEMS ===== */
+.menu-list li {
+    margin-bottom: 10px;
+}
+
+/* ===== LINKS ===== */
+.menu-list a {
+    display: block;
+    text-decoration: none;
+    padding: 8px 10px;
+    border-radius: 6px;
+    color: #444;
+    font-size: 14.5px;
+    border: 1px solid #ffe0b2;
+    background-color: #fffdf8;
+    transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+/* ===== HOVER (SUBTLE) ===== */
+.menu-list a:hover {
+    background-color: #fff1d6;
+    color: #ff8c00;
+}
+
+/* ===== ACTIVE (OPTIONAL) ===== */
+.menu-list a:focus {
+    outline: none;
+    background-color: #ffe0b2;
+    color: #ff8c00;
+}

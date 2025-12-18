@@ -2,25 +2,27 @@
 <html>
 <head>
     <title>Header</title>
+    <link rel="stylesheet" href="header.css">
 </head>
 <body>
 
-<table width="100%">
-    <tr>
-        <!-- App Title -->
-        <td align="center">
-            <h1><b>Online Bus Tracker & Ticket Booking System</b></h1>
-            <p><i>RTC & RTC Express Services</i></p>
-        </td>
+<div class="header-bar">
+    <!-- Empty spacer (left) -->
+    <div class="spacer"></div>
 
-        <!-- Logout -->
-        <td align="right" valign="top">
-            <a href="login.html" target="_top"><b>Logout</b></a>
-        </td>
-    </tr>
-</table>
+    <!-- Centered Title -->
+    <div class="title-section">
+        <h1>Online Bus Tracker & Ticket Booking System</h1>
+        <p>RTC & RTC Express Services</p>
+    </div>
 
-<hr>
+    <!-- Logout -->
+    <div class="logout-section">
+        <a href="login.html" target="_top" class="logout-btn">Logout</a>
+    </div>
+</div>
+
+<hr class="header-line">
 
 </body>
 </html>

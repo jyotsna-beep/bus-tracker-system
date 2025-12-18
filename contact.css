@@ -1,0 +1,58 @@
+/* ===== BODY ===== */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background-color: #fffdf8;
+    color: #333;
+}
+
+/* ===== CONTAINER ===== */
+.contact-container {
+    max-width: 700px;
+    margin: 30px auto;
+    padding: 20px 25px;
+}
+
+/* ===== HEADING ===== */
+h2 {
+    text-align: center;
+    color: #ff8c00;
+    margin-bottom: 15px;
+}
+
+/* ===== TEXT ===== */
+p {
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+/* ===== CONTACT BOX ===== */
+.contact-box {
+    margin-top: 15px;
+    padding: 15px 18px;
+    border: 1px solid #ffd699;
+    border-radius: 6px;
+    background-color: #ffffff;
+}
+
+.contact-box p {
+    margin: 8px 0;
+}
+
+/* ===== LINKS ===== */
+a {
+    color: #ff8c00;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* ===== NOTE ===== */
+.note {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #555;
+}

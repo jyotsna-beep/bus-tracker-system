@@ -2,85 +2,84 @@
 <html>
 <head>
     <title>RTC Ticket Booking</title>
+    <link rel="stylesheet" href="booking.css">
 </head>
 <body>
 
-<h2>RTC & RTC Express Ticket Booking</h2>
+<div class="booking-container">
 
-<p>
-    Fill the below form to book tickets for
-    <b>RTC</b> and <b>RTC Express</b> buses.
-</p>
+    <h2>RTC & RTC Express Ticket Booking</h2>
 
-<form>
-    <table cellpadding="8">
+    <p>
+        Fill the below form to book tickets for
+        <b>RTC</b> and <b>RTC Express</b> buses.
+    </p>
 
-        <tr>
-            <td><b>Passenger Name</b></td>
-            <td><input type="text" required></td>
-        </tr>
+    <form class="booking-form">
 
-        <tr>
-            <td><b>Mobile Number</b></td>
-            <td><input type="text" required></td>
-        </tr>
+        <div class="form-row">
+            <label>Passenger Name</label>
+            <input type="text" required>
+        </div>
 
-        <tr>
-            <td><b>Gender</b></td>
-            <td>
+        <div class="form-row">
+            <label>Mobile Number</label>
+            <input type="text" required>
+        </div>
+
+        <div class="form-row">
+            <label>Gender</label>
+            <div class="options">
                 <input type="radio" name="g"> Male
                 <input type="radio" name="g"> Female
-            </td>
-        </tr>
+            </div>
+        </div>
 
-        <tr>
-            <td><b>Bus Type</b></td>
-            <td>
+        <div class="form-row">
+            <label>Bus Type</label>
+            <div class="options">
                 <input type="radio" name="bus"> RTC Ordinary
                 <input type="radio" name="bus"> RTC Express
-            </td>
-        </tr>
+            </div>
+        </div>
 
-        <tr>
-            <td><b>Source</b></td>
-            <td><input type="text" placeholder="Enter source city"></td>
-        </tr>
+        <div class="form-row">
+            <label>Source</label>
+            <input type="text" placeholder="Enter source city">
+        </div>
 
-        <tr>
-            <td><b>Destination</b></td>
-            <td><input type="text" placeholder="Enter destination city"></td>
-        </tr>
+        <div class="form-row">
+            <label>Destination</label>
+            <input type="text" placeholder="Enter destination city">
+        </div>
 
-        <tr>
-            <td><b>Date of Journey</b></td>
-            <td><input type="date"></td>
-        </tr>
+        <div class="form-row">
+            <label>Date of Journey</label>
+            <input type="date">
+        </div>
 
-        <tr>
-            <td><b>Number of Seats</b></td>
-            <td>
-                <select>
-                    <option>1</option>
-                    <option>2</option>
-                    <option>3</option>
-                    <option>4</option>
-                </select>
-            </td>
-        </tr>
+        <div class="form-row">
+            <label>Number of Seats</label>
+            <select>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+            </select>
+        </div>
 
-        <tr>
-            <td colspan="2" align="center">
-                <input type="submit" value="Book Ticket">
-                <input type="reset">
-            </td>
-        </tr>
+        <div class="btn-row">
+            <input type="submit" value="Book Ticket" class="btn primary">
+            <input type="reset" value="Clear" class="btn secondary">
+        </div>
 
-    </table>
-</form>
+    </form>
 
-<p>
-    <mark>Note:</mark> Please carry a valid ID proof while travelling.
-</p>
+    <p class="note">
+        Note: Please carry a valid ID proof while travelling.
+    </p>
+
+</div>
 
 </body>
 </html>

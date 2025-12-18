@@ -1,0 +1,118 @@
+/* ===== BODY ===== */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background-color: #fffdf8;
+    color: #333;
+}
+
+/* ===== CONTAINER ===== */
+.booking-container {
+    max-width: 750px;
+    margin: 30px auto;
+    padding: 20px 25px;
+}
+
+/* ===== HEADING ===== */
+h2 {
+    text-align: center;
+    color: #ff8c00;
+    margin-bottom: 15px;
+}
+
+/* ===== TEXT ===== */
+p {
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+/* ===== FORM ===== */
+.booking-form {
+    margin-top: 15px;
+    padding: 15px 18px;
+    border: 1px solid #ffd699;
+    border-radius: 6px;
+    background-color: #ffffff;
+}
+
+/* ===== FORM ROW ===== */
+.form-row {
+    margin-bottom: 12px;
+}
+
+.form-row label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 4px;
+}
+
+/* ===== INPUTS ===== */
+input[type="text"],
+input[type="date"],
+select {
+    width: 260px;
+    padding: 7px 9px;
+    border-radius: 5px;
+    border: 1px solid #ffd699;
+    font-size: 14px;
+}
+
+input:focus,
+select:focus {
+    outline: none;
+    border-color: #ffb74d;
+}
+
+/* ===== OPTIONS ===== */
+.options {
+    font-size: 14.5px;
+}
+
+.options input {
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+/* ===== BUTTONS ===== */
+.btn-row {
+    text-align: center;
+    margin-top: 18px;
+}
+
+.btn {
+    padding: 8px 16px;
+    border-radius: 5px;
+    border: none;
+    font-size: 14px;
+    cursor: pointer;
+    margin: 0 5px;
+}
+
+/* Primary */
+.btn.primary {
+    background-color: #ffb74d;
+    color: #ffffff;
+}
+
+.btn.primary:hover {
+    background-color: #ffa726;
+}
+
+/* Secondary */
+.btn.secondary {
+    background-color: #fff3e0;
+    color: #ff8c00;
+    border: 1px solid #ffd180;
+}
+
+.btn.secondary:hover {
+    background-color: #ffe0b2;
+}
+
+/* ===== NOTE ===== */
+.note {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #555;
+}

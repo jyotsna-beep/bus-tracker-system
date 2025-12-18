@@ -1,0 +1,91 @@
+/* ===== BODY ===== */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background-color: #fffdf8;
+    color: #333;
+}
+
+/* ===== CONTAINER ===== */
+.routes-container {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 20px 25px;
+}
+
+/* ===== HEADINGS ===== */
+h2 {
+    text-align: center;
+    color: #ff8c00;
+    margin-bottom: 15px;
+}
+
+h3 {
+    color: #ff8c00;
+    margin-top: 20px;
+}
+
+/* ===== PARAGRAPH ===== */
+p {
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+/* ===== FORM ===== */
+.route-form {
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.form-row {
+    margin-bottom: 10px;
+}
+
+.form-row label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 4px;
+}
+
+.form-row input {
+    width: 260px;
+    padding: 7px 9px;
+    border-radius: 5px;
+    border: 1px solid #ffd699;
+}
+
+/* ===== TABLE ===== */
+.route-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.route-table th,
+.route-table td {
+    border: 1px solid #ffd699;
+    padding: 8px;
+    text-align: center;
+    font-size: 14.5px;
+}
+
+.route-table th {
+    background-color: #fff3e0;
+    color: #ff8c00;
+    font-weight: 600;
+}
+
+/* ===== NOTE ===== */
+.note {
+    margin-top: 12px;
+    font-size: 14px;
+    color: #555;
+}
+
+/* ===== HR ===== */
+hr {
+    border: none;
+    border-top: 1px solid #ffd699;
+    margin: 20px 0;
+}

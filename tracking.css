@@ -1,0 +1,67 @@
+/* ===== BODY ===== */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background-color: #fffdf8;
+    color: #333;
+}
+
+/* ===== CONTAINER ===== */
+.tracking-container {
+    max-width: 700px;
+    margin: 30px auto;
+    padding: 20px 25px;
+}
+
+/* ===== HEADING ===== */
+h2 {
+    text-align: center;
+    color: #ff8c00;
+    margin-bottom: 15px;
+}
+
+/* ===== INTRO ===== */
+.intro {
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+/* ===== STATUS LIST ===== */
+.status-list {
+    margin-top: 10px;
+}
+
+/* ===== STATUS ITEM ===== */
+.status-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 14px;
+    margin-bottom: 10px;
+    border: 1px solid #ffd699;
+    border-radius: 6px;
+    background-color: #ffffff;
+}
+
+/* ===== BUS NAME ===== */
+.bus {
+    font-weight: 600;
+}
+
+/* ===== STATUS ===== */
+.status {
+    font-size: 14.5px;
+}
+
+/* ===== STATUS COLORS (SUBTLE) ===== */
+.ontime {
+    color: #2e7d32;   /* green */
+}
+
+.arriving {
+    color: #ef6c00;  /* orange */
+}
+
+.delayed {
+    color: #c62828;  /* red */
+}

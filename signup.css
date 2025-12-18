@@ -1,0 +1,129 @@
+/* ===== BODY ===== */
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background-color: #fff8ec;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ===== CONTAINER ===== */
+.signup-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+/* ===== CARD ===== */
+.signup-card {
+    width: 420px;
+    background-color: #ffffff;
+    border: 1.5px solid #ffcc80;
+    border-radius: 12px;
+    padding: 25px 30px;
+    box-shadow: 0 6px 14px rgba(0,0,0,0.08);
+}
+
+/* ===== HEADING ===== */
+.signup-card h2 {
+    text-align: center;
+    color: #ff8c00;
+    margin-bottom: 20px;
+}
+
+/* ===== FORM ROW ===== */
+.form-row {
+    margin-bottom: 14px;
+}
+
+.form-row label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 600;
+    color: #444;
+}
+
+/* ===== INPUTS ===== */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select {
+    width: 100%;
+    padding: 8px 10px;
+    border-radius: 6px;
+    border: 1px solid #ffe0b2;
+    font-size: 14px;
+}
+
+input:focus,
+select:focus {
+    outline: none;
+    border-color: #ffb74d;
+}
+
+/* ===== OPTIONS ===== */
+.options {
+    font-size: 14px;
+    color: #444;
+}
+
+.options input {
+    margin-right: 5px;
+}
+
+/* ===== BUTTONS ===== */
+.btn-row {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 18px;
+}
+
+.btn {
+    width: 48%;
+    padding: 9px;
+    border-radius: 6px;
+    border: none;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+/* Primary */
+.btn.primary {
+    background-color: #ffb74d;
+    color: #ffffff;
+}
+
+.btn.primary:hover {
+    background-color: #ffa726;
+}
+
+/* Secondary */
+.btn.secondary {
+    background-color: #fff3e0;
+    color: #ff8c00;
+    border: 1px solid #ffd180;
+}
+
+.btn.secondary:hover {
+    background-color: #ffe0b2;
+}
+
+/* ===== LOGIN TEXT ===== */
+.login-text {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.login-text a {
+    color: #ff8c00;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.login-text a:hover {
+    text-decoration: underline;
+}

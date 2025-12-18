@@ -1,0 +1,58 @@
+/* ===== BODY ===== */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background-color: #fffdf8;
+    color: #333;
+}
+
+/* ===== CONTAINER ===== */
+.home-container {
+    max-width: 850px;
+    margin: 30px auto;
+    padding: 20px 25px;
+}
+
+/* ===== HEADINGS ===== */
+h2 {
+    text-align: center;
+    color: #ff8c00;
+    margin-bottom: 15px;
+}
+
+h3 {
+    margin-top: 25px;
+    color: #ff8c00;
+}
+
+/* ===== PARAGRAPHS ===== */
+p {
+    line-height: 1.6;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+/* ===== LIST ===== */
+ul {
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 6px;
+    font-size: 14.5px;
+}
+
+/* ===== IMAGE ===== */
+.image-box {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.image-box img {
+    width: 400px;
+    max-width: 100%;
+    border: 1px solid #ffd699;
+    border-radius: 8px;
+}

@@ -2,78 +2,77 @@
 <html>
 <head>
     <title>RTC Bus Timetable</title>
+    <link rel="stylesheet" href="timetable.css">
 </head>
 <body>
 
-<h2>RTC & RTC Express Bus Timetable</h2>
+<div class="timetable-container">
 
-<p>
-    The following table shows the <b>schedule and fare details</b> of
-    <i>RTC</i> and <i>RTC Express</i> buses.
-</p>
+    <h2>RTC & RTC Express Bus Timetable</h2>
 
-<h3>RTC Ordinary Buses</h3>
+    <p>
+        The following table shows the <b>schedule and fare details</b> of
+        <i>RTC</i> and <i>RTC Express</i> buses.
+    </p>
 
-<table border="1" cellpadding="8">
-    <tr>
-        <th>Bus No</th>
-        <th>Route</th>
-        <th>Departure</th>
-        <th>Arrival</th>
-        <th>Fare (₹)</th>
-    </tr>
+    <h3>RTC Ordinary Buses</h3>
 
-    <tr>
-        <td>RTC-101</td>
-        <td>Hyderabad – Vijayawada</td>
-        <td>07:30 AM</td>
-        <td>01:45 PM</td>
-        <td>450</td>
-    </tr>
+    <table class="time-table">
+        <tr>
+            <th>Bus No</th>
+            <th>Route</th>
+            <th>Departure</th>
+            <th>Arrival</th>
+            <th>Fare (₹)</th>
+        </tr>
+        <tr>
+            <td>RTC-101</td>
+            <td>Hyderabad – Vijayawada</td>
+            <td>07:30 AM</td>
+            <td>01:45 PM</td>
+            <td>450</td>
+        </tr>
+        <tr>
+            <td>RTC-108</td>
+            <td>Hyderabad – Warangal</td>
+            <td>08:15 AM</td>
+            <td>12:30 PM</td>
+            <td>300</td>
+        </tr>
+    </table>
 
-    <tr>
-        <td>RTC-108</td>
-        <td>Hyderabad – Warangal</td>
-        <td>08:15 AM</td>
-        <td>12:30 PM</td>
-        <td>300</td>
-    </tr>
-</table>
+    <h3>RTC Express Buses</h3>
 
-<br>
+    <table class="time-table">
+        <tr>
+            <th>Bus No</th>
+            <th>Route</th>
+            <th>Departure</th>
+            <th>Arrival</th>
+            <th>Fare (₹)</th>
+        </tr>
+        <tr>
+            <td>RTC-EX-205</td>
+            <td>Hyderabad – Vijayawada</td>
+            <td>09:00 AM</td>
+            <td>02:30 PM</td>
+            <td>550</td>
+        </tr>
+        <tr>
+            <td>RTC-EX-218</td>
+            <td>Hyderabad – Guntur</td>
+            <td>01:00 PM</td>
+            <td>06:45 PM</td>
+            <td>600</td>
+        </tr>
+    </table>
 
-<h3>RTC Express Buses</h3>
+    <p class="note">
+        Note: RTC Express buses have higher fares due to
+        <b>faster travel</b> and <b>fewer stops</b>.
+    </p>
 
-<table border="1" cellpadding="8">
-    <tr>
-        <th>Bus No</th>
-        <th>Route</th>
-        <th>Departure</th>
-        <th>Arrival</th>
-        <th>Fare (₹)</th>
-    </tr>
-
-    <tr>
-        <td>RTC-EX-205</td>
-        <td>Hyderabad – Vijayawada</td>
-        <td>09:00 AM</td>
-        <td>02:30 PM</td>
-        <td>550</td>
-    </tr>
-
-    <tr>
-        <td>RTC-EX-218</td>
-        <td>Hyderabad – Guntur</td>
-        <td>01:00 PM</td>
-        <td>06:45 PM</td>
-        <td>600</td>
-    </tr>
-</table>
-
-<p>
-    <mark>Note:</mark> RTC Express buses have higher fares due to
-    <b>faster travel</b> and <b>fewer stops</b>.
-</p>
+</div>
 
 </body>
 </html>

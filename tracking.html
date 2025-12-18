@@ -2,35 +2,44 @@
 <html>
 <head>
     <title>Live Bus Status</title>
+    <link rel="stylesheet" href="tracking.css">
 </head>
 <body>
 
-<h2>Live RTC & RTC Express Bus Status</h2>
+<div class="tracking-container">
 
-<p>
-    Below is the current status of running
-    <b>RTC</b> and <b>RTC Express</b> buses.
-</p>
+    <h2>Live RTC & RTC Express Bus Status</h2>
 
-<p>
-    <b>RTC-101</b> :
-    <i>On Time</i>
-</p>
+    <p class="intro">
+        Below is the current status of running
+        <b>RTC</b> and <b>RTC Express</b> buses.
+    </p>
 
-<p>
-    <b>RTC-115</b> :
-    <mark>Delayed by 15 minutes</mark>
-</p>
+    <div class="status-list">
 
-<p>
-    <b>RTC-EX-205</b> :
-    <i>Arriving Shortly</i>
-</p>
+        <div class="status-item">
+            <span class="bus">RTC-101</span>
+            <span class="status ontime">On Time</span>
+        </div>
 
-<p>
-    <b>RTC-EX-218</b> :
-    <mark>Delayed due to traffic</mark>
-</p>
+        <div class="status-item">
+            <span class="bus">RTC-115</span>
+            <span class="status delayed">Delayed by 15 minutes</span>
+        </div>
+
+        <div class="status-item">
+            <span class="bus">RTC-EX-205</span>
+            <span class="status arriving">Arriving Shortly</span>
+        </div>
+
+        <div class="status-item">
+            <span class="bus">RTC-EX-218</span>
+            <span class="status delayed">Delayed due to traffic</span>
+        </div>
+
+    </div>
+
+</div>
 
 </body>
 </html>
